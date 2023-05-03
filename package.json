@@ -2,6 +2,7 @@
     "name": "dashboard",
     "version": "1.0.0",
     "homepage": "https://kevwhuang.github.io/dashboard",
+    "license": "MIT",
     "author": "Kevin Huang",
     "scripts": {
         "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
