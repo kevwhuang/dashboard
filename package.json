@@ -1,0 +1,39 @@
+{
+    "name": "dashboard",
+    "version": "1.0.0",
+    "homepage": "https://kevwhuang.github.io/dashboard",
+    "author": "Kevin Huang",
+    "scripts": {
+        "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+        "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start"
+    },
+    "dependencies": {
+        "@emotion/react": "*",
+        "@emotion/styled": "*",
+        "@mui/material": "*",
+        "axios": "*",
+        "react": "*",
+        "react-dom": "*",
+        "react-router-dom": "*",
+        "react-scripts": "*",
+        "uuid": "*"
+    },
+    "devDependencies": {
+        "eslint": "*",
+        "eslint-plugin-jsx-a11y": "*",
+        "eslint-plugin-react": "*",
+        "eslint-plugin-react-hooks": "*"
+    },
+    "browserslist": {
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ],
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ]
+    }
+}
