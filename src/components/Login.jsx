@@ -5,7 +5,7 @@ import css from '../css/modules/Login.module.css';
 
 function Login(props) {
     const { setIsAuthenticated } = props;
-    
+
     const [formData, setFormData] = React.useState({
         username: '',
         password: '',
@@ -22,7 +22,7 @@ function Login(props) {
             alert('You are now logged in.');
             setIsAuthenticated(true);
         } else {
-            alert('Unauthorized login. Please try again.');
+            alert('Unauthorized login. Hint: placeholder text.');
         }
     }
 

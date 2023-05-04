@@ -18,9 +18,9 @@ ReactDOM.createRoot(document.getElementById('root'))
         <React.StrictMode>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Layout />}>
+                    <Route path="/dashboard" element={<Layout />}>
                         <Route index element={<Home />} />
-                        <Route path="*" element={<Error />} />
+                        <Route path="*" element={<Error />} status={404} />
                     </Route>
                 </Routes>
             </BrowserRouter>
