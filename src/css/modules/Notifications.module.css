@@ -1,0 +1,25 @@
+.notifications {
+    margin: 3rem auto;
+    width: 80vw;
+}
+
+.delete {
+    color: #9e3fb0;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: 50ms;
+    vertical-align: middle;
+}
+
+.delete:hover {
+    color: crimson;
+}
+
+.delete:active {
+    transform: scale(.85);
+}
+
+.message {
+    line-height: 1.5rem;
+    list-style-type: none;
+}
